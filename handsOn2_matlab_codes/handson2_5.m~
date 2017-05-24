@@ -1,0 +1,30 @@
+clear all;clc;close all;
+dPasso = 5;
+dDim = 200;
+nl = (dDim-2*dPasso)/dPasso + 1;
+%% Código sem Laço
+% Abre contador de tempo
+t2 = tic;
+% Matriz com posição de cada ponto do grid (posição relativa ao canto inferior direito)
+[px,py] = meshgrid(dPasso:dPasso:dDim-dPasso, dPasso:dPasso:dDim-dPasso);
+% Matrizes com posição de cada ponto do grid relativa a cada BS
+pbs0SF = px + j*py - ( dDim/2 + 0.8*dDim*j);
+pbs1SF = px + j*py - ( dDim/2 + 0.2*dDim*j);
+% Cálculo da potência recebida em cada roteador
+pl0SF = 10*log10(1./(abs(pbs0SF).^4)/1e-3);
+pl1SF = 10*log10(1./(abs(pbs1SF).^4)/1e-3);
+% Cálculo da melhor potência e cada ponto do grid
+plfSF = max(pl0SF,pl1SF);
+% fecha contador de tempo 2.
+tempo2 = toc(t2)
+%% Gráficos com e sem laços for
+% plota as posiçoes dos pontos do grid para a BS 0 e a BS 1
+subplot(1,2,1); plot(pbs0SF,'*');title('Roteador 0 sem Laço');
+subplot(1,2,2); plot(pbs1SF,'*');title('Roteador 1 sem Laço');
+figure;
+% plota a potencia nos pontos do grid para a BS 0 e a BS 1 separadamente
+subplot(1,2,1); pcolor(pl0SF);title('Roteador 0 sem Laço');
+subplot(1,2,2); pcolor(pl1SF);title('BS 1 sem Laço');
+figure;
+% plota a melhor potencia nos pontos do grid (melhor entre a BS 0 e a BS 1)
+pcolor(plfSF);title(['Sistema sem Laço - tempo ' num2str(tempo2)]);
