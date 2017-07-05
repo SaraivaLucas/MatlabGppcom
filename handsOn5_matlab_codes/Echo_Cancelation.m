@@ -1,3 +1,4 @@
+% Echo_Cancelation.m
 clc;clear all; close all;
 %% Abrindo o guitar.wav - Definições de parâmetros 
 [y,fs]=  audioread('/home/labsim/python-gppcom/guitar.wav');    % Endereço do nosso sinal
@@ -45,7 +46,7 @@ xlabel('Tempo (s)')
 %% Plotting vetor da autocorrelação
 figure (2)
 plot(lags/fs,Rxx)
-title('Autocorrelaçao de Yeco')
+title('Autocorrelaçao de Yeco') 
 xlabel('Lag (s)')
 
 %% Plota os vetores do som original e eco no mesmo gráfico
