@@ -8,6 +8,9 @@ x=4800:T:5200;                                          % Eixo x
 DistNorm=normpdf(x,mu,sigma);                           % Distribuição normal    
 indices = (max(find(x<(38+mu))):max(find(x>(38+mu))));  % Encontra o local que se deseja estimar
 prob1=sum(DistNorm(indices))*T*100                      % Probabilidade de um evento ocorrer no intervalo
-plot(x,DistNorm);                                       
+plot(x,DistNorm);                               
+title(['Probabilidade de ' num2str(prob1) '%'])
+xlabel('Anos')
+ylabel('Distribuiçao de probabilidade')
 hold on
 area(x(indices),DistNorm(indices))                      % Probabilidade 
