@@ -30,8 +30,8 @@ for nPontos = vtPontos
     
     
     %% Plota elementos
-    %vtPontosCirculo = vtPontos(indexPontCirculo); 
-    %plot(vtPontosCirculo,'.');
-    %title(['Simulação com ', num2str(nPontos), ' elementos' ])
+    vtPontosCirculo = vtPontos(indexPontCirculo); 
+    plot(vtPontosCirculo,'.');
+    title(['Simulação com ', num2str(nPontos), ' elementos' ])
         
 end
