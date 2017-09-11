@@ -1,5 +1,4 @@
 clc; close all;clear all;
-
 %% Parâmetros do sinal 
 N=1000;                                 % Número de amostras
 f1=10;                                  % Frequência do seno (kHz)
