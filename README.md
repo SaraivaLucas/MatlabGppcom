@@ -1,8 +1,8 @@
-# Atividades e experimentos (GPPCOM) 
-Códigos em Python (2 e 3) aplicados a telecomunicações e processamento digital de sinais. O NBViewer serve apenas para visualizar os códigos, e não permite que o usuário os execute em tempo real, pois o código é previamente executado antes de ser exibido. Se quiser copiar o código, basta clicar no terceiro ícone superior direito da página (</>)
-* [Jupyter Notebook: Instalação e prática](https://nbviewer.jupyter.org/github/jmarcoscosta/python-gppcom/blob/master/handson01_python.ipynb)
-* [Tutorial básico de comandos git (GitHub)](https://nbviewer.jupyter.org/github/jmarcoscosta/python-gppcom/blob/master/TutorialGit.ipynb)
-* [Primeiro teste com a matplotlib (Testing.ipynb)](https://nbviewer.jupyter.org/github/jmarcoscosta/python-gppcom/blob/master/Testing.ipynb)
-* [Processamento básico de áudio, plotagem interativa e cálculo alternativo de potência (handson3_python.ipynb)](https://nbviewer.jupyter.org/github/jmarcoscosta/python-gppcom/blob/master/handson03_python.ipynb)
-* [Tutorial de instalação do kernel do Matlab para o Jupyter](https://nbviewer.jupyter.org/github/jmarcoscosta/python-gppcom/blob/master/Tutorial_Matlab2015a_Jupyter_Kernel.ipynb)
-* [Introdução ao Matlab](https://nbviewer.jupyter.org/github/jmarcoscosta/python-gppcom/blob/master/handson02_matlab.ipynb)
+# Matlab GPPCOM
+Neste repositório será colocado todos meus HandsOns da disciplina Laboratório de prototipagem de sistemas de comunicações.
+[O que devemos saber para começar a programar com Matlab](http://nbviewer.jupyter.org/github/SaraivaLucas/MatlabGppcom/blob/master/handson02_matlab.ipynb)
+
+[Visualização de sinais no tempo no Matlab](http://nbviewer.jupyter.org/github/SaraivaLucas/MatlabGppcom/blob/master/handson03_matlab.ipynb)
+
+[Visualização de sinais na frequência no Matlab](http://nbviewer.jupyter.org/github/SaraivaLucas/MatlabGppcom/blob/master/handson04_matlab.ipynb)
+[Operação básicas com sinais ](http://nbviewer.jupyter.org/github/SaraivaLucas/MatlabGppcom/blob/master/handson05_matlab.ipynb)
