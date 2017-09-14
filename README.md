@@ -1,6 +1,6 @@
 # Matlab GPPCOM
 Neste repositório será colocado todos meus HandsOns da disciplina Laboratório de prototipagem de sistemas de comunicações.
-Todos HandsOns em Matlab são de minha autoria e todos os códigos que estão em python são de [Jõao Marcos](github.com/jmarcoscosta/python-gppcom).
+Todos HandsOns em Matlab são de minha autoria e todos os códigos que estão em python são de [Jõao Marcos](https://github.com/jmarcoscosta/python-gppcom).
 
 [O que devemos saber para começar a programar com Matlab](http://nbviewer.jupyter.org/github/SaraivaLucas/MatlabGppcom/blob/master/handson02_matlab.ipynb)
 
