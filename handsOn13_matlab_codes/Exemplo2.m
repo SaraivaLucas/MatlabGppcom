@@ -46,32 +46,3 @@ title('Sinais x(t) e xn')
 xlabel('Tempo')
 axis([0 100 0 9])
 fig = gcf; fig.PaperPosition=[0 0 8 5];         % Configuração do recorte da folha
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
